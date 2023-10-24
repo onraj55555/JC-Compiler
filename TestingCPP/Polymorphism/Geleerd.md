@@ -1,0 +1,2 @@
+- Pointers zodat de afgeleide klassen op de heap staan (soms niet zelfde grootte als basisklasse) -> new
+- unique_ptr zodat destructor automatisch opgeroepen wordt (kan da ook zelf schrijven)

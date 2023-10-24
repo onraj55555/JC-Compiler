@@ -1,0 +1,13 @@
+@startuml
+
+class AbstractNode {
+    + print(): void
+}
+
+class InitializeNode {
+    - m_data_type: std::string
+    - m_variable_name: std::string
+    - value: ValueNode
+}
+
+@enduml

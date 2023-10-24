@@ -1,0 +1,21 @@
+Functions
+Standaard:
+fn(type) name(params) { ... }
+
+Max uitbreiding:
+fn
+(
+type
+)
+name
+(
+type1
+param1
+,
+type2
+param2
+...
+)
+{
+
+}

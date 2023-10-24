@@ -1,0 +1,33 @@
+ReadingRules:
+[] -> optional
+-  -> listing
+
+functions:
+fn(type) name(params) {}
+
+variables:
+type name [= value];
+case: snake_case
+
+main function:
+fn(int) main([int argc, char ** argv]) {
+    ...
+    ret exit_status;
+}
+
+structure:
+-includes
+-glob var
+[-functions]
+-main
+[-functions]
+
+conditions:
+if(boolean condition or variable) {}
+[else {}]
+
+loops:
+while(boolean condition or variable) {}
+
+return:
+ret value;

@@ -1,0 +1,26 @@
+int i = 69;
+float f = 6.9;
+
+fn(int) main() {
+    return 0;
+}
+
+fn
+(
+void
+)
+foo
+(
+)
+{
+    write('b', 1);
+    write('a', 1);
+    write('r', 1);
+
+    if(true) {
+        return;
+    }
+    else {
+        ;
+    }
+}
